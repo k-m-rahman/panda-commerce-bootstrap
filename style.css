@@ -1,0 +1,53 @@
+/*------------------
+ nav-bar styles
+ ------------------ */
+
+.search-bar {
+    width: 400px;
+}
+
+.search-position {
+    position: absolute;
+    right: 0;
+    top: 5px;
+
+}
+
+
+/*-----------------------
+Image slider styles
+ ------------------------- */
+
+.image-slider-style {
+    background-color: #FEEAE9;
+}
+
+.slider-button {
+    transform: scale(1.5);
+    background-color: rgb(208, 205, 205, 0.5);
+
+}
+
+
+
+/*-----------------------
+ Responsiveness styles
+ ------------------------- */
+
+/*-----------------------
+ Mobile device styles
+ ------------------------- */
+
+@media screen and (max-width:992px) {
+    .search-bar {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .search-position {
+        position: absolute;
+        right: 10%;
+        top: 45%;
+
+    }
+}
