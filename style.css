@@ -1,7 +1,13 @@
+/*------------------
+ common styles
+ ------------------ */
+
 header,
 main {
     margin-bottom: 100px;
 }
+
+
 
 /*------------------
  nav-bar styles
@@ -32,6 +38,11 @@ Image slider styles
     background-color: rgb(208, 205, 205, 0.5);
 
 }
+
+
+/* ------------------
+Shoes catagory stiles
+--------------------- */
 
 
 
