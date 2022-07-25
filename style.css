@@ -7,6 +7,10 @@ main {
     margin-bottom: 100px;
 }
 
+.panda-container {
+    max-width: 90%;
+}
+
 
 
 /*------------------
@@ -40,9 +44,73 @@ Image slider styles
 }
 
 
+/*-----------------------
+category styles
+ ------------------------- */
+.shoes-bg {
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+
+.watch-bg {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+
+.bag-bg {
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+
+
 /* ------------------
 Shoes catagory stiles
 --------------------- */
+.shoes-bags-bg {
+    background: #F4F4F4;
+}
+
+
+/* subscribe section styles */
+
+
+.subscribe-bg {
+    background-color: #FFF2F1;
+    border-radius: 15px;
+}
+
+.email {
+    border: none;
+    border-radius: 0%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 40%;
+    padding-left: 2%;
+
+}
+
+.email::placeholder {
+    opacity: 0.3;
+    font-size: larger;
+
+}
+
+.email:focus {
+    box-shadow: inset 0px 0px 0px 1px #FF589B;
+}
+
+.email-subscribe-height {
+    height: 55px;
+}
+
+
+.subscribe-button-bg {
+    background: linear-gradient(180deg, #FF589B 0%, #FF136F 100%);
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 0%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 130px;
+}
 
 
 
